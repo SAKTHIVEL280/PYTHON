@@ -1,0 +1,10 @@
+'''a=input()'''
+a=["vowels","and","consonents"]
+v=["a","e","i","o","u","A","E","I","O","U"]
+for i in range(0,len(a)):
+    c=0
+    for j in range(0,len(v)):
+        for k in range(0,len(a[i])):
+            if(a[i][k]==v[j]):
+                c+=1
+    print(c)
