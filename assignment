@@ -9,7 +9,7 @@ for i in range(a):
     x=input(f"Enter the name of student{i+1}: ")
     y=int(input("Enter the student no: "))
     lst.append(x)
-    lst.append(y)
+    lst.append(65432100+y)
     for j in range(5):
         k=random.choice(l)
         lst.append(k)
